@@ -29,7 +29,7 @@ body {
     text-align: left;
 }
 .characteristics {
-    list-style-image: url(list.png);
+    list-style-image: url(img/list.png);
     font-family: "Courier New", Courier, monospace;
     font-size: 15px;
     font-weight: 600;

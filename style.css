@@ -1,13 +1,27 @@
 body {
     background-color: #f8f8f8;
+    font-family: sans-serif;
+}
+.header {
+    border-bottom: 1px solid black;
+}
+.footer {
+    border-top: 1px solid black;
+}
+.logo {
+    width: 200px;
 }
 .menu {
-    font-family: Times, serif;
-    font-size: 19px;
     list-style-type: none;
 }
-.menu a {
+.menu-link {
+    font-size: 19px;
+    font-weight: bolder;
     color: #015666;
+    text-decoration: none;
+}
+.menu-link:hover {
+    color: #FF7600;
 }
 .product_page_h3 {
     color: black;
@@ -30,7 +44,6 @@ body {
 }
 .characteristics {
     list-style-image: url(img/list.png);
-    font-family: "Courier New", Courier, monospace;
     font-size: 15px;
     font-weight: 600;
     line-height: 20px;
@@ -40,7 +53,7 @@ body {
 }
 textarea, .cont_input {
     font-size: 18px;
-    border: solid black 1px;
+    outline: 1px solid black;
     border-radius: 6px;
     color: #015666;
     font-weight: 500;
@@ -48,9 +61,42 @@ textarea, .cont_input {
 }
 .img_catalog {
     width: 450px;
-    border: solid black 2px;
+    outline: 2px solid black;
 }
 .img_product {
     width: 900px;
-    border: solid black 2px;
+    outline: 2px solid black;
+}
+.img_product:hover {
+    outline-style: none;
+}
+.cont_button {
+    width: 100px;
+    height: 30px;
+}
+input[type="email"]:focus {
+    background-color: #FFB400;
+    color: #1531AE;
+}
+.cont_input, .cont_textarea {
+    text-transform: capitalize;
+}
+.text_description_brief::first-letter, .text_description_detailed::first-letter, .text_description_features::first-letter {
+    color: #015666;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: cursive;
+}
+.product_table {
+    width: 400px;
+    border-collapse: collapse;
+}
+.product_td {
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+    /* border-spacing: 0px; */
+}
+.product_th {
+    height: 30px;
 }

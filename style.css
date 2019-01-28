@@ -1,18 +1,40 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
 body {
     background-color: #f8f8f8;
     font-family: sans-serif;
 }
 .header {
     border-bottom: 1px solid black;
+    height: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5DCEC6;
 }
 .footer {
     border-top: 1px solid black;
+    height: 60px;
+    background-color: #5DCEC6;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+    padding-right: 80px;
+    box-sizing: border-box;
 }
 .logo {
-    width: 200px;
+    width: 150px;
+    margin-left: 20px;
 }
 .menu {
     list-style-type: none;
+    display: flex;
+    margin-right: 100px;
+}
+.menu-list {
+    width: 100px;
 }
 .menu-link {
     font-size: 19px;
@@ -28,6 +50,8 @@ body {
     font-size: 18px;
     font-weight: 400;
     background-color: #eaeaea;
+    clear: both;
+    /* background-color: #37B6CE; */
 }
 .text_description_brief {
     color: #707070;
@@ -65,7 +89,10 @@ textarea, .cont_input {
 }
 .img_product {
     width: 900px;
+    margin-right: 20px;
+    margin-bottom: 20px;
     outline: 2px solid black;
+    float: left;
 }
 .img_product:hover {
     outline-style: none;
@@ -73,6 +100,17 @@ textarea, .cont_input {
 .cont_button {
     width: 100px;
     height: 30px;
+}
+.button_buy {
+    height: 50px;
+    border-radius: 50px;
+    background-color: #5DCEC6;
+}
+.button_buy:hover {
+    background-color: #FF7600;
+}
+.button_buy:active {
+    background-color: #4AE83A;
 }
 input[type="email"]:focus {
     background-color: #FFB400;

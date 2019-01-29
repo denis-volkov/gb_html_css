@@ -91,7 +91,7 @@ textarea, .cont_input {
 }
 .img_catalog {
     width: 450px;
-    outline: 2px solid black;
+    outline: 1px solid black;
 }
 .img_product {
     width: 900px;
@@ -149,7 +149,7 @@ input[type="email"]:focus {
     height: 30px;
 }
 .catalog_prodict {
-    border: 1px solid black;
+    border: 1px solid #015666;
     width: 450px;
     padding: 10px;
     margin: 10px;

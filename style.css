@@ -103,6 +103,10 @@ textarea, .cont_input {
 .img_product:hover {
     outline-style: none;
 }
+.img_main {
+    width: 1200px;
+    margin-bottom: 20px;
+}
 .cont_button {
     width: 100px;
     height: 30px;
@@ -143,4 +147,16 @@ input[type="email"]:focus {
 }
 .product_th {
     height: 30px;
+}
+.catalog_prodict {
+    border: 1px solid black;
+    width: 450px;
+    padding: 10px;
+    margin: 10px;
+}
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
 }
